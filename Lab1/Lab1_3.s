@@ -54,6 +54,7 @@ minus1float: .float -1
 	la a1,C
 	jal DESENHA
 	
+	ebreak
 	la t0,N
 	lw a0,0(t0)
 	la a1,C
@@ -68,6 +69,7 @@ minus1float: .float -1
 	la t0,N
 	lw a0,0(t0)
 	jal PRINT_REDLINE
+	ebreak
 	
 	j FIMPROG
 
